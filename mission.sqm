@@ -8,14 +8,14 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=199;
+		nextID=363;
 	};
 	class Camera
 	{
-		pos[]={2817.4795,25.386311,3082.0239};
-		dir[]={0.86183417,-0.43539095,0.26023725};
-		up[]={0.41681328,0.90023392,0.12585984};
-		aside[]={0.2890754,-4.1854219e-007,-0.9573344};
+		pos[]={2802.7935,66.538834,3102.686};
+		dir[]={0.85345536,-0.39392182,-0.3413623};
+		up[]={0.36577013,0.91912758,-0.14630091};
+		aside[]={-0.37138224,2.7945498e-007,-0.92851943};
 	};
 };
 binarizationWanted=0;
@@ -157,7 +157,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=69;
+		items=176;
 		class Item0
 		{
 			dataType="Object";
@@ -708,7 +708,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2861.9448,17.14826,3180.0891};
+				position[]={2807.2532,26.891733,3238.3323};
 				angles[]={0,3.7918539,0};
 			};
 			side="Empty";
@@ -718,7 +718,7 @@ class Mission
 			};
 			id=69;
 			type="Land_DPP_01_mainFactory_F";
-			atlOffset=1.4876671;
+			atlOffset=1.4876814;
 		};
 		class Item26
 		{
@@ -4299,7 +4299,7 @@ class Mission
 			side="West";
 			class Entities
 			{
-				items=6;
+				items=4;
 				class Item0
 				{
 					dataType="Object";
@@ -4397,37 +4397,6 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5063.0381,85.323975,2.5861576};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=180;
-					type="LOP_AA_Police_MG";
-					atlOffset=-1.5258789e-005;
-				};
-				class Item3
-				{
-					dataType="Object";
-					class PositionInfo
-					{
-						position[]={5062.1489,85.354294,0.61369139};
-					};
-					side="West";
-					flags=5;
-					class Attributes
-					{
-					};
-					id=181;
-					type="LOP_AA_Police_MG_Asst";
-				};
-				class Item4
-				{
-					dataType="Object";
-					class PositionInfo
-					{
 						position[]={5060.8794,85.278244,2.3402946};
 					};
 					side="West";
@@ -4439,7 +4408,7 @@ class Mission
 					type="LOP_AA_Police_Rifleman_2";
 					atlOffset=-7.6293945e-006;
 				};
-				class Item5
+				class Item3
 				{
 					dataType="Object";
 					class PositionInfo
@@ -4631,6 +4600,7 @@ class Mission
 					};
 					id=198;
 					type="LOP_AA_Police_Rifleman_2";
+					atlOffset=2.3841858e-007;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -4698,6 +4668,1596 @@ class Mission
 			{
 			};
 			id=197;
+			atlOffset=2.3841858e-007;
+		};
+		class Item69
+		{
+			dataType="Trigger";
+			position[]={2872.1155,0.49551868,3109.895};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_1";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=212;
+			type="EmptyDetectorAreaR50";
+			atlOffset=1.0015154;
+		};
+		class Item70
+		{
+			dataType="Trigger";
+			position[]={2891.6309,-0.56969488,3094.9202};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_2";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=252;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.46805298;
+		};
+		class Item71
+		{
+			dataType="Trigger";
+			position[]={2911.6016,0,3075.9624};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_3";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=253;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.46805298;
+		};
+		class Item72
+		{
+			dataType="Trigger";
+			position[]={2881.2654,0.29212797,3080.1951};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_4";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=254;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.1048837;
+		};
+		class Item73
+		{
+			dataType="Trigger";
+			position[]={2861.75,2.1204472,3095.1699};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_5";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=255;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.6505497;
+		};
+		class Item74
+		{
+			dataType="Trigger";
+			position[]={2901.2361,0.50739926,3061.2373};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_6";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=256;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.1376836;
+		};
+		class Item75
+		{
+			dataType="Trigger";
+			position[]={2852.5002,0.013526201,3076.9902};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_7";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=257;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.4941158;
+		};
+		class Item76
+		{
+			dataType="Trigger";
+			position[]={2872.0156,-2.9365964,3062.0154};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_8";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=258;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.033446312;
+		};
+		class Item77
+		{
+			dataType="Trigger";
+			position[]={2891.9863,-1.6080687,3043.0576};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_9";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=259;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item78
+		{
+			dataType="Trigger";
+			position[]={2844.769,1.8174328,3058.7344};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_10";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=260;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.6278002;
+		};
+		class Item79
+		{
+			dataType="Trigger";
+			position[]={2864.2844,-2.9837759,3043.7595};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_11";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=261;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.0798905;
+		};
+		class Item80
+		{
+			dataType="Trigger";
+			position[]={2884.2551,2.6849093,3024.8018};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_12";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=262;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.2551901;
+		};
+		class Item81
+		{
+			dataType="Trigger";
+			position[]={2835.2239,1.2558575,3040.7402};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_13";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=263;
+			type="EmptyDetectorAreaR50";
+			atlOffset=3.270401;
+		};
+		class Item82
+		{
+			dataType="Trigger";
+			position[]={2854.7393,-2.5104458,3025.7654};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_14";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=264;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.8324931;
+		};
+		class Item83
+		{
+			dataType="Trigger";
+			position[]={2874.71,2.1626835,3006.8076};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_15";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=265;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.8902934;
+		};
+		class Item84
+		{
+			dataType="Trigger";
+			position[]={2827.7815,2.2446427,3019.4771};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_16";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=266;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.9190984;
+		};
+		class Item85
+		{
+			dataType="Trigger";
+			position[]={2847.2969,0.74200046,3004.5022};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_17";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=267;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.4534323;
+		};
+		class Item86
+		{
+			dataType="Trigger";
+			position[]={2867.2676,2.1964335,2985.5444};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_18";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=268;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.516232;
+		};
+		class Item87
+		{
+			dataType="Trigger";
+			position[]={2823.3293,0.95613408,2995.4927};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_19";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=269;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.83616096;
+		};
+		class Item88
+		{
+			dataType="Trigger";
+			position[]={2842.8447,-1.2661941,2980.5178};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_20";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=270;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.4632206;
+		};
+		class Item89
+		{
+			dataType="Trigger";
+			position[]={2862.8154,1.3621416,2961.5601};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_21";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=271;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.56890184;
+		};
+		class Item90
+		{
+			dataType="Trigger";
+			position[]={2817.7883,0.55532908,2971.4814};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_22";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=272;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.057439685;
+		};
+		class Item91
+		{
+			dataType="Trigger";
+			position[]={2837.3037,-0.56705874,2956.5066};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_23";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=273;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item92
+		{
+			dataType="Trigger";
+			position[]={2857.2744,0.54091793,2937.5488};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_24";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=274;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item93
+		{
+			dataType="Trigger";
+			position[]={2817.1726,0.72987396,2944.332};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_25";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=275;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.020546556;
+		};
+		class Item94
+		{
+			dataType="Trigger";
+			position[]={2836.688,-0.409953,2929.3572};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_26";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=276;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item95
+		{
+			dataType="Trigger";
+			position[]={2856.6587,0,2910.3994};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_27";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=277;
+			type="EmptyDetectorAreaR50";
+			atlOffset=-0.21671264;
+		};
+		class Item96
+		{
+			dataType="Trigger";
+			position[]={2815.0635,1.6017908,2923.7742};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_28";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=278;
+			type="EmptyDetectorAreaR50";
+			atlOffset=1.1431751;
+		};
+		class Item97
+		{
+			dataType="Trigger";
+			position[]={2834.5789,0.15607703,2908.7993};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_29";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=279;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.80055702;
+		};
+		class Item98
+		{
+			dataType="Trigger";
+			position[]={2854.5496,0.60265183,2889.8416};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_30";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=280;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.94898546;
+		};
+		class Item99
+		{
+			dataType="Trigger";
+			position[]={2816.6709,1.3100054,2899.7034};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_31";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=281;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.98916435;
+		};
+		class Item100
+		{
+			dataType="Trigger";
+			position[]={2836.1863,-0.044630498,2884.7285};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_32";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=282;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.68997395;
+		};
+		class Item101
+		{
+			dataType="Trigger";
+			position[]={2856.157,0.64514792,2865.7708};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_33";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=283;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.86315513;
+		};
+		class Item102
+		{
+			dataType="Trigger";
+			position[]={2833.4768,0.21997347,2863.4956};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_35";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=285;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.54997349;
+		};
+		class Item103
+		{
+			dataType="Trigger";
+			position[]={2853.4475,0.66297841,2844.5378};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_36";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=286;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.96764696;
+		};
+		class Item104
+		{
+			dataType="Trigger";
+			position[]={2873.8521,5.4171848,3143.8037};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_1";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=287;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item105
+		{
+			dataType="Trigger";
+			position[]={2908.1973,4.2169476,3109.3394};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_3";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=291;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.4230595;
+		};
+		class Item106
+		{
+			dataType="Trigger";
+			position[]={2925.0464,1.9118298,3096.0571};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_4";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=292;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item107
+		{
+			dataType="Trigger";
+			position[]={2957.1155,6.1291256,3068.1216};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_5";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=293;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item108
+		{
+			dataType="Trigger";
+			position[]={2940.2664,8.4710217,3081.4038};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_6";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=294;
+			type="EmptyDetectorAreaR50";
+			atlOffset=3.9360218;
+		};
+		class Item109
+		{
+			dataType="Trigger";
+			position[]={2973.2712,10.880692,3056.0959};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_7";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=295;
+			type="EmptyDetectorAreaR50";
+			atlOffset=3.934361;
+		};
+		class Item110
+		{
+			dataType="Trigger";
+			position[]={2990.1204,8.331892,3042.8137};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_8";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=296;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item111
+		{
+			dataType="Trigger";
+			position[]={2857.4919,6.1319919,3160.3152};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_10";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=298;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item112
+		{
+			dataType="Trigger";
+			position[]={2892.7229,1.7208545,3127.8569};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_11";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=299;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item113
+		{
+			dataType="Trigger";
+			position[]={2888.3958,7.4802132,3158.4885};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_2";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=300;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.9452133;
+		};
+		class Item114
+		{
+			dataType="Trigger";
+			position[]={2939.8047,2.346319,3110.6121};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_9";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=301;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item115
+		{
+			dataType="Trigger";
+			position[]={2971.8738,6.7459211,3082.6765};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_12";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=302;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.067499161;
+		};
+		class Item116
+		{
+			dataType="Trigger";
+			position[]={2988.0295,11.200077,3070.6509};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_13";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=303;
+			type="EmptyDetectorAreaR50";
+			atlOffset=3.7706118;
+		};
+		class Item117
+		{
+			dataType="Trigger";
+			position[]={3004.8787,9.7597599,3057.3687};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_14";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=304;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.12273312;
+		};
+		class Item118
+		{
+			dataType="Trigger";
+			position[]={2870.0618,7.4522243,3175.9856};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_15";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=305;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.3317924;
+		};
+		class Item119
+		{
+			dataType="Trigger";
+			position[]={2902.7847,5.1478667,3144.3696};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_16";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=306;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.61286688;
+		};
+		class Item120
+		{
+			dataType="Trigger";
+			position[]={2898.8865,7.6796751,3173.6384};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_17";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=307;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.9571619;
+		};
+		class Item121
+		{
+			dataType="Trigger";
+			position[]={2950.2954,2.341073,3125.762};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_18";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=308;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item122
+		{
+			dataType="Trigger";
+			position[]={2982.3645,6.1976666,3097.8264};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_19";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=309;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item123
+		{
+			dataType="Trigger";
+			position[]={2998.5203,11.125035,3085.8008};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_20";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=310;
+			type="EmptyDetectorAreaR50";
+			atlOffset=3.772562;
+		};
+		class Item124
+		{
+			dataType="Trigger";
+			position[]={3015.3694,13.153867,3072.5186};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_21";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=311;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.13593102;
+		};
+		class Item125
+		{
+			dataType="Trigger";
+			position[]={2880.5525,8.1950426,3191.1355};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_22";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=312;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.3799925;
+		};
+		class Item126
+		{
+			dataType="Trigger";
+			position[]={2913.2754,5.0242825,3159.5195};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_23";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=313;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.48928261;
+		};
+		class Item127
+		{
+			dataType="Trigger";
+			position[]={2959.8228,9.0792561,3097.3728};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_24";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=314;
+			type="EmptyDetectorAreaR50";
+			atlOffset=3.9527144;
+		};
+		class Item128
+		{
+			dataType="Trigger";
+			position[]={2972.6511,9.1078663,3114.6589};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_25";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=315;
+			type="EmptyDetectorAreaR50";
+			atlOffset=3.9505467;
+		};
+		class Item129
+		{
+			dataType="Trigger";
+			position[]={2920.2358,4.4507866,3126.1689};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_26";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=316;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.4355595;
+		};
+		class Item130
+		{
+			dataType="Trigger";
+			position[]={2936.8345,4.6830597,3145.4629};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_27";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=317;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.14805984;
+		};
+		class Item131
+		{
+			dataType="Trigger";
+			position[]={2910.6531,5.956913,3179.5447};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_28";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=318;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.6211915;
+		};
+		class Item132
+		{
+			dataType="Trigger";
+			position[]={2892.3191,5.7908344,3197.0417};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_29";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=319;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.025002003;
+		};
+		class Item133
+		{
+			dataType="Trigger";
+			position[]={2925.042,5.7099996,3165.4258};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_30";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=320;
+			type="EmptyDetectorAreaR50";
+			atlOffset=1.1749997;
+		};
+		class Item134
+		{
+			dataType="Trigger";
+			position[]={2925.4114,8.461031,3194.0996};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_31";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=321;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.9815025;
+		};
+		class Item135
+		{
+			dataType="Trigger";
+			position[]={2976.8203,3.9946973,3146.2231};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_32";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=322;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item136
+		{
+			dataType="Trigger";
+			position[]={3008.8894,6.4696941,3118.2876};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_33";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=323;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.09125185;
+		};
+		class Item137
+		{
+			dataType="Trigger";
+			position[]={3025.0452,14.563108,3106.262};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_34";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=324;
+			type="EmptyDetectorAreaR50";
+			atlOffset=4.1086702;
+		};
+		class Item138
+		{
+			dataType="Trigger";
+			position[]={3041.8943,14.23163,3092.9797};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_35";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=325;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.13023663;
+		};
+		class Item139
+		{
+			dataType="Trigger";
+			position[]={2907.0774,8.1556244,3211.5967};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_36";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=326;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.3317947;
+		};
+		class Item140
+		{
+			dataType="Trigger";
+			position[]={2939.8003,4.2643218,3179.9807};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_37";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=327;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.66661978;
+		};
+		class Item141
+		{
+			dataType="Trigger";
+			position[]={2935.9021,8.9891129,3209.2495};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_38";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=328;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.9946651;
+		};
+		class Item142
+		{
+			dataType="Trigger";
+			position[]={2987.311,4.4505777,3161.373};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_39";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=329;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.04706192;
+		};
+		class Item143
+		{
+			dataType="Trigger";
+			position[]={3019.3801,6.6922774,3133.4375};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_40";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=330;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item144
+		{
+			dataType="Trigger";
+			position[]={3035.5359,11.823761,3121.4119};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_41";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=331;
+			type="EmptyDetectorAreaR50";
+			atlOffset=3.7300653;
+		};
+		class Item145
+		{
+			dataType="Trigger";
+			position[]={3052.385,12.597872,3108.1296};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_42";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=332;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.069328308;
+		};
+		class Item146
+		{
+			dataType="Trigger";
+			position[]={2917.5681,8.9479694,3226.7466};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_43";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=333;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.3776317;
+		};
+		class Item147
+		{
+			dataType="Trigger";
+			position[]={2950.291,5.4555511,3195.1306};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_44";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=334;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.46328259;
+		};
+		class Item148
+		{
+			dataType="Trigger";
+			position[]={2992.073,9.9955845,3129.4541};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_45";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=335;
+			type="EmptyDetectorAreaR50";
+			atlOffset=3.932663;
+		};
+		class Item149
+		{
+			dataType="Trigger";
+			position[]={3009.6667,10.569422,3150.27};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_46";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=336;
+			type="EmptyDetectorAreaR50";
+			atlOffset=3.9367886;
+		};
+		class Item150
+		{
+			dataType="Trigger";
+			position[]={2955.8926,5.2585683,3165.6348};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_47";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=337;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.72356844;
+		};
+		class Item151
+		{
+			dataType="Trigger";
+			position[]={2973.8501,4.1841893,3181.074};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_48";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=338;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.20556164;
+		};
+		class Item152
+		{
+			dataType="Trigger";
+			position[]={2957.1279,2.5074732,3145.3379};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_49";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=339;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.036250114;
+		};
+		class Item153
+		{
+			dataType="Trigger";
+			position[]={2965.2466,6.9952559,3131.7485};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_50";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=340;
+			type="EmptyDetectorAreaR50";
+			atlOffset=2.4602561;
+		};
+		class Item154
+		{
+			dataType="Trigger";
+			position[]={2991.1907,6.4849839,3110.9229};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_51";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=341;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.14750242;
+		};
+		class Item155
+		{
+			dataType="Trigger";
+			position[]={3013.252,9.5360317,3097.3325};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_52";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=342;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.16000175;
+		};
+		class Item156
+		{
+			dataType="Trigger";
+			position[]={3028.7832,13.422445,3083.2139};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_53";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=343;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.0639925;
+		};
+		class Item157
+		{
+			dataType="Trigger";
+			position[]={3037.9607,6.9232101,3142.3379};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_54";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=344;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.077502251;
+		};
+		class Item158
+		{
+			dataType="Trigger";
+			position[]={3027.0183,6.5320816,3166.1641};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_55";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=345;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.09250164;
+		};
+		class Item159
+		{
+			dataType="Trigger";
+			position[]={3006.7217,5.035749,3178.8716};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_56";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=346;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.12000179;
+		};
+		class Item160
+		{
+			dataType="Trigger";
+			position[]={2992.073,4.9124646,3188.7549};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_57";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=347;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.1750021;
+		};
+		class Item161
+		{
+			dataType="Trigger";
+			position[]={2973.5415,6.3049779,3210.9932};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_58";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=348;
+			type="EmptyDetectorAreaR50";
+		};
+		class Item162
+		{
+			dataType="Trigger";
+			position[]={2957.6575,6.5871124,3222.9941};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_59";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=349;
+			type="EmptyDetectorAreaR50";
+			atlOffset=-0.026248455;
+		};
+		class Item163
+		{
+			dataType="Trigger";
+			position[]={3024.3796,5.9185896,3191.3574};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_60";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=350;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.092232704;
+		};
+		class Item164
+		{
+			dataType="Trigger";
+			position[]={3003.8452,5.9052033,3212.376};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_61";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=351;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.1548543;
+		};
+		class Item165
+		{
+			dataType="Trigger";
+			position[]={2987.6694,6.2873068,3228.8428};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_62";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=352;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.084133625;
+		};
+		class Item166
+		{
+			dataType="Trigger";
+			position[]={2967.0383,8.0568466,3242.9839};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_63";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=353;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.10125256;
+		};
+		class Item167
+		{
+			dataType="Trigger";
+			position[]={2941.8547,9.5189648,3236.1069};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_64";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=354;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.086251259;
+		};
+		class Item168
+		{
+			dataType="Trigger";
+			position[]={3026.6072,6.34516,3215.7661};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_65";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=355;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.077967167;
+		};
+		class Item169
+		{
+			dataType="Trigger";
+			position[]={3046.4634,5.8411689,3201.0435};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_66";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=356;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.11604643;
+		};
+		class Item170
+		{
+			dataType="Trigger";
+			position[]={3048.5945,6.9560461,3176.8286};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_67";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=357;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.12250137;
+		};
+		class Item171
+		{
+			dataType="Trigger";
+			position[]={3054.6965,7.5163794,3156.0034};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_68";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=358;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.13125181;
+		};
+		class Item172
+		{
+			dataType="Trigger";
+			position[]={3060.5083,10.580214,3127.2363};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_69";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=359;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.027313232;
+		};
+		class Item173
+		{
+			dataType="Trigger";
+			position[]={3008.8389,5.7007184,3238.2417};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_70";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=360;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.12024498;
+		};
+		class Item174
+		{
+			dataType="Trigger";
+			position[]={2992.0723,5.9844966,3255.7144};
+			angle=3.8036463;
+			class Attributes
+			{
+				name="trg_water_filled_71";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=361;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.13607693;
+		};
+		class Item175
+		{
+			dataType="Trigger";
+			position[]={2833.717,0.63800001,2833.0161};
+			angle=3.8036478;
+			class Attributes
+			{
+				name="trg_water_34";
+				sizeA=16;
+				sizeB=16;
+			};
+			id=362;
+			type="EmptyDetectorAreaR50";
+			atlOffset=0.96800005;
 		};
 	};
 };
