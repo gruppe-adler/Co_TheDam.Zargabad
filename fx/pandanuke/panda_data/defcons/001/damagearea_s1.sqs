@@ -1,0 +1,8 @@
+_xpos = _this select 0
+_ypos = _this select 1
+_explosionpunktz = _this select 2
+
+_array = [_xpos,_ypos,_explosionpunktz] nearObjects ["All", 800]
+{_x setdammage ((getdammage _x) + 0.01)} forEach _array
+
+exit

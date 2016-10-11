@@ -1,0 +1,28 @@
+class CfgSounds
+{
+	sounds[] = {falls, explosion, splash};
+	class falls
+	{
+		name = "falls";
+		// filename, volume, pitch
+		sound[] = {"sounds\falls.ogg", 1, 1};
+		// subtitle delay in seconds, subtitle text
+		titles[] = {0, ""};
+	};
+	class explosion
+	{
+		name = "explosion";
+		// filename, volume, pitch
+		sound[] = {"sounds\explosion.ogg", 1, 1};
+		// subtitle delay in seconds, subtitle text
+		titles[] = {0, ""};
+	};
+	class splash
+	{
+		name = "splash";
+		// filename, volume, pitch
+		sound[] = {"sounds\splash.ogg", 1, 1};
+		// subtitle delay in seconds, subtitle text
+		titles[] = {0, ""};
+	};
+};

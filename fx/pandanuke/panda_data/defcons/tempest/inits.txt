@@ -1,0 +1,4 @@
+atomtempest1 = ["bild_0.jpg"];
+atomtempest2 = ["bild_1.jpg"]; 
+this setObjectTexture [0, atomtempest1 select 0];
+this setObjectTexture [1, atomtempest2 select 0];
