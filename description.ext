@@ -1,5 +1,10 @@
+class cfgFunctions {
+	#include "GRAD_electricFence\cfgFunctions.hpp"
+};
+
 class CfgSounds
 {
+	#include "GRAD_electricFence\cfgSounds.hpp"
 	sounds[] = {falls, explosion, splash};
 	class falls
 	{

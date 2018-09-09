@@ -7,6 +7,8 @@ if (isServer) then {
   [] execVM "fx\server\playDamSound.sqf";
 };
 
+[] spawn GRAD_electricFence_fnc_init;
+
 /*
 ps = "#particlesource" createVehicleLocal [2897.23,3102.66,2]; 
 ps setParticleParams [["\A3\data_f\cl_basic.p3d", 1, 0, 1], "", "Billboard", 1, 3, [0, 0, 1.5],

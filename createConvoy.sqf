@@ -72,6 +72,7 @@ GRAD_spawnConvoyVehicles = {
 	{	
 		_x setSpeedMode "LIMITED";
 		_x setCombatMode "SAFE";
+		_x limitSpeed 5;
 	} forEach units _group;
 
 	[_group, [[3431.92,8180.26,0],[3178.58,2.20578,0]]] call GRAD_setWaypoints;
